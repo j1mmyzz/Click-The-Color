@@ -48,7 +48,7 @@ public class Game {
         textfield.setForeground(Color.WHITE);
         textfield.setFont(new Font("Arial",Font.BOLD,50));
         textfield.setHorizontalAlignment(JLabel.CENTER);
-        //score
+        //the score
         textfield.setText("Score = " + score + " Timer = " + Timer.minute);
         textfield.setOpaque(true);
         title_panel.setLayout(new BorderLayout());
